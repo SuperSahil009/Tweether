@@ -1,0 +1,29 @@
+{
+  "name": "tweether",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperSahil009/Tweether.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuperSahil009/Tweether/issues"
+  },
+  "homepage": "https://github.com/SuperSahil009/Tweether#readme",
+  "dependencies": {
+    "next": "^12.0.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "web3": "^1.7.0"
+  }
+}
