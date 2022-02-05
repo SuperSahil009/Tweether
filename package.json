@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next client"
+    "dev": "npm run openings && npm run artifacts && next client",
+    "artifacts": "cp -r ./build/contracts/ ./client/web3/artifacts",
+    "openings": "xdg-open http://localhost:3000/"
   },
   "repository": {
     "type": "git",
@@ -22,8 +24,14 @@
   "homepage": "https://github.com/SuperSahil009/Tweether#readme",
   "dependencies": {
     "next": "^12.0.10",
+    "next-images": "^1.8.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "truffle-contract": "^4.0.31",
     "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "babel-plugin-inline-svg": "^1.2.0"
   }
 }
